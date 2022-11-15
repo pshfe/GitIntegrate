@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="tests">
+<groups>
+<run>
+<include name="ErrorValidation"></include>
+</run>
+</groups>
+<listeners>
+<listener class-name="EndtoEnd.Listeners"></listener>
+</listeners>
+     <test thread-count="5" name="firstTest">
+    <classes>
+      <class name="EndtoEnd.standalone"/>
+      </classes>
+      </test>
+      
+    <test thread-count="5" name="secondTest">
+      <classes>
+      <class name="EndtoEnd.ErrorValidation"/>
+    </classes>
+      </test> 
+  <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-02T23:19:30 PDT" name="Suite" finished-at="2022-11-02T23:20:05 PDT" duration-ms="35748">
+    <groups>
+      <group name="ErrorValidation">
+        <method signature="ErrorValidation.Loginerrorvalidate()[pri:0, instance:EndtoEnd.ErrorValidation@4f9a2c08]" name="Loginerrorvalidate" class="EndtoEnd.ErrorValidation"/>
+      </group> <!-- ErrorValidation -->
+      <group name="providingdata">
+        <method signature="standalone.Mainordersubmit(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EndtoEnd.standalone@38089a5a]" name="Mainordersubmit" class="EndtoEnd.standalone"/>
+      </group> <!-- providingdata -->
+    </groups>
+    <test started-at="2022-11-02T23:19:30 PDT" name="secondTest" finished-at="2022-11-02T23:19:38 PDT" duration-ms="8793">
+      <class name="EndtoEnd.ErrorValidation">
+        <test-method signature="Loginerrorvalidate()[pri:0, instance:EndtoEnd.ErrorValidation@4f9a2c08]" started-at="2022-11-02T23:19:30 PDT" name="Loginerrorvalidate" finished-at="2022-11-02T23:19:38 PDT" duration-ms="7952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginerrorvalidate -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:EndtoEnd.ErrorValidation@4f9a2c08]" started-at="2022-11-02T23:19:38 PDT" name="closedriver" finished-at="2022-11-02T23:19:38 PDT" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- EndtoEnd.ErrorValidation -->
+    </test> <!-- secondTest -->
+    <test started-at="2022-11-02T23:19:30 PDT" name="firstTest" finished-at="2022-11-02T23:20:05 PDT" duration-ms="35748">
+      <class name="EndtoEnd.standalone">
+        <test-method signature="Mainordersubmit(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EndtoEnd.standalone@38089a5a]" started-at="2022-11-02T23:19:30 PDT" name="Mainordersubmit" data-provider="getdata" finished-at="2022-11-02T23:19:41 PDT" duration-ms="11072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pooja.shetty@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IPHONE 13 PRO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mainordersubmit -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:EndtoEnd.standalone@38089a5a]" started-at="2022-11-02T23:19:41 PDT" name="closedriver" finished-at="2022-11-02T23:19:41 PDT" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method signature="Mainordersubmit(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EndtoEnd.standalone@38089a5a]" started-at="2022-11-02T23:19:41 PDT" name="Mainordersubmit" data-provider="getdata" finished-at="2022-11-02T23:19:50 PDT" duration-ms="8918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pooja.shetty@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mainordersubmit -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:EndtoEnd.standalone@38089a5a]" started-at="2022-11-02T23:19:50 PDT" name="closedriver" finished-at="2022-11-02T23:19:52 PDT" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method signature="Myorders(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EndtoEnd.standalone@38089a5a]" started-at="2022-11-02T23:19:52 PDT" name="Myorders" data-provider="getdata" finished-at="2022-11-02T23:19:58 PDT" depends-on-methods="EndtoEnd.standalone.Mainordersubmit" duration-ms="6204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pooja.shetty@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IPHONE 13 PRO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Myorders -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:EndtoEnd.standalone@38089a5a]" started-at="2022-11-02T23:19:58 PDT" name="closedriver" finished-at="2022-11-02T23:19:58 PDT" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method signature="Myorders(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EndtoEnd.standalone@38089a5a]" started-at="2022-11-02T23:19:58 PDT" name="Myorders" data-provider="getdata" finished-at="2022-11-02T23:20:05 PDT" depends-on-methods="EndtoEnd.standalone.Mainordersubmit" duration-ms="6201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pooja.shetty@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Myorders -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:EndtoEnd.standalone@38089a5a]" started-at="2022-11-02T23:20:05 PDT" name="closedriver" finished-at="2022-11-02T23:20:05 PDT" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- EndtoEnd.standalone -->
+    </test> <!-- firstTest -->
+  </suite> <!-- Suite -->
+</testng-results>
