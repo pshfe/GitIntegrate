@@ -34,6 +34,7 @@ public class standalonejasondata extends BaseTest {
 	@Test(dataProvider="getdata2",groups={"providingdata"})
 	public void Mainordersubmit(String data) throws IOException
 	{
+		System.out.println("Json data");
        initialize();// beforetest is used so  need to call here.
        LoginPage lp= new LoginPage(dr);
       String[]arr1= data.split(",");

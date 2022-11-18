@@ -5,15 +5,28 @@
 <listener class-name="EndtoEnd.Listeners"></listener>
 </listeners>
 
-     <test thread-count="5" name="firstTest">
+     <test thread-count="2" name="firstTest">
     <classes>
       <class name="EndtoEnd.standalone"/>
       </classes>
       </test>
       
-    <test thread-count="5" name="secondTest">
+    <test thread-count="2" name="secondTest">
       <classes>
       <class name="EndtoEnd.ErrorValidation"/>
+    </classes>
+      </test> 
+      
+      <test thread-count="2" name="thirdTest">
+      <classes>
+      <class name="EndtoEnd.standalonejasondata"/>
+    </classes>
+      </test> 
+      
+      
+      <test thread-count="2" name="fourthTest">
+      <classes>
+      <class name="EndtoEnd.standalonehashmap"/>
     </classes>
       </test> 
  

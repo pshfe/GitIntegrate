@@ -29,6 +29,7 @@ public class standalonehashmap extends BaseTest {
 	@Test(dataProvider="getdata1",groups={"providingdata"})
 	public void Mainordersubmit(HashMap<String,String>hm) throws IOException
 	{
+		System.out.println("Hashmap data");
        initialize(); //beforetest is used so  need to call here.
        LoginPage lp= new LoginPage(dr);
        lp.loginapplication(hm.get("email"),hm.get("password"));
