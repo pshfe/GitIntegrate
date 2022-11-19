@@ -85,7 +85,7 @@ public class BaseTest
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
-		String destinationfile=System.getProperty("user.dir")+"\\ScreenshotReport\\"+testcasename+".png";
+		String destinationfile=System.getProperty("user.dir")+"\\Reports\\"+testcasename+".png";
 		FileUtils.copyFile(source, new File(destinationfile));
 		return destinationfile;
 	}

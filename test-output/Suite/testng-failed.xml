@@ -5,6 +5,11 @@
     <listener class-name="EndtoEnd.Listeners"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="secondTest(failed)">
+    <groups>
+      <run>
+        <include name="ErrorValidation"/>
+      </run>
+    </groups>
     <classes>
       <class name="EndtoEnd.ErrorValidation">
         <methods>
