@@ -18,7 +18,7 @@ public class ErrorValidation extends BaseTest
         lp.loginapplication("pooja.shetty@gmail.com","Qwerty@2021");
         String errormessage =lp.errormessage();
         System.out.println("Error Message is :"+errormessage);
-        Assert.assertEquals(errormessage, "Incorrects email or password.");
+        Assert.assertEquals(errormessage, "Incorrect email or password.");
 
 	}
    
