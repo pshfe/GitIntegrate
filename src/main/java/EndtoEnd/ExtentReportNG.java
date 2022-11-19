@@ -9,7 +9,7 @@ public class ExtentReportNG
 	static ExtentReports er;
 	public static ExtentReports getExtentReport()
 	{
-		String path =System.getProperty("user.dir")+"\\Reports\\index.html";
+		String path =System.getProperty("user.dir")+"\\Reports\\myreport.html";
 		ExtentSparkReporter esr= new ExtentSparkReporter(path);
 		esr.config().setReportName("Automation Results");
 		esr.config().setDocumentTitle("Web Automation Reports");
