@@ -77,8 +77,8 @@ public class standalonehashmap extends BaseTest {
 		mp.put("password","Qwerty@2022");
 		mp.put("Product", "ADIDAS ORIGINAL");
 		HashMap<String,String>mp1= new HashMap<String,String>();
-		mp1.put("email", "shetty@gmail.com");
-		mp1.put("password","Iamking@000");
+		mp1.put("email", "pooja.shetty@gmail.com");
+		mp1.put("password","Qwerty@2022");
 		mp1.put("Product", "ZARA COAT 3");
 		return new Object[][] {{mp},{mp1}};
 	}
